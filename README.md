@@ -32,13 +32,13 @@ brew install ffmpeg
 
 ```bash
 # YouTube 影片
-python korean_to_srt_final.py "https://www.youtube.com/watch?v=xxxxx"
+python korean_to_srt.py "https://www.youtube.com/watch?v=xxxxx"
 
 # YouTube Shorts
-python korean_to_srt_final.py "https://www.youtube.com/shorts/xxxxx"
+python korean_to_srt.py "https://www.youtube.com/shorts/xxxxx"
 
 # 本地影片檔案
-python korean_to_srt_final.py "/path/to/video.mp4"
+python korean_to_srt.py "/path/to/video.mp4"
 ```
 
 執行後會在腳本所在資料夾下，依影片標題建立子資料夾：
